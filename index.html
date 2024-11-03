@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: aquamarine;">OTP with combination of Numbers and Alphabets</h1>
+    <script>
+        function generateOtp(length) {
+    const char = "seerarajesh123456789";
+    let Otp = '';
+    for (let i = 0; i < length; i++) {
+        Otp += char [Math.floor(Math.random() * char.length)]
+        
+    }
+    return Otp ;
+    
+}console.log(generateOtp(6)); 
+
+    </script>
+</body>
+</html>
